@@ -1,8 +1,8 @@
 use rustyadventures::{add, divide, multiply, subtract};
 
 #[test]
-fn integration_test_add() {
-    assert_eq!(add(10, 20), 40);
+f integration_test_add() {
+    assert_eq!(add(10, 20), 30);
 }
 
 #[test]
