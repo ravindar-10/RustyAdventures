@@ -17,6 +17,5 @@ jobs:
 
       - name: Build and test Rust backend project
         run: |
-          cd backend
           cargo check --verbose
           cargo test --verbose
